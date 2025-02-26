@@ -1,0 +1,4 @@
+.frontIntro {
+    display: flex;
+    flex-direction: column;
+}
