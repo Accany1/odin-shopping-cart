@@ -1,4 +1,28 @@
+.frontPage {
+    max-width: 1700px;
+    padding: 0 10rem;
+}
+
+.frontContainer {
+    display: flex;
+}
+
+.frontTitle {
+    margin: 0;
+    font-size: 1.8em;
+}
+
 .frontIntro {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding:5rem;
+}
+
+.frontText {
+    margin: 2rem 0 3rem;
+}
+
+.frontPicture {
+    
 }

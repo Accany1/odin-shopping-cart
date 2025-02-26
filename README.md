@@ -4,7 +4,8 @@ Simple shopping cart website built for the odin project tutorial.
 
 Todo:
 
-[] Add a cart page
-[] Navigation between homepage and checkout
+[x] Add a cart page
+[x] Navigation between homepage and checkout
+[x] Front page done
 [] Add item cards
 [] Add working API

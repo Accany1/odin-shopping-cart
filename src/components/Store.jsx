@@ -1,5 +1,4 @@
-
-const Cards = () => {
+const Store = () => {
     return (
         <div>
             here are some cards
@@ -7,4 +6,4 @@ const Cards = () => {
     )
 }
 
-export default Cards
+export default Store
