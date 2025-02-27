@@ -1,19 +1,38 @@
 .header {
   height: 50px;
   display: flex;
-  align-items: center;
+  align-items:baseline;
   padding: 20px 40px;
   color: #1B1B1E;
 }
 
 .title {
-  margin-right: auto;
   font-weight: 700;
   cursor: pointer;
   color: #1B1B1E;
   text-decoration: none;
 }
 
+.store {
+  margin-right: auto;
+  cursor: pointer;
+  color: #1B1B1E;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-size: 1.2em;
+}
+
 .cart:hover {
     cursor: pointer;
+}
+
+.cartNumber {
+  color: white;
+  background-color: #1B1B1E;
+  width: 15px;
+  height: 15px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 15px;
+  transform: translateY(-1.5em);
 }

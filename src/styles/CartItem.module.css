@@ -1,0 +1,34 @@
+.cartItem {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    min-width: 60vw;
+    justify-content: space-between;
+    padding: 0 1vw;
+}
+
+.image {
+    min-width: 150px;
+    height: 100px;
+    object-fit: contain;
+    margin: 25px;
+    align-self: center;
+}
+
+.name {
+    width: 20vw;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.groupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.subHeading {
+    font-weight: 600;
+}

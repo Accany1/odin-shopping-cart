@@ -39,3 +39,9 @@
     padding: .75rem 1.5rem;
   }
 }
+
+.add {
+  composes: button;
+  padding: 0.3rem 1rem;
+  font-size: 0.8em;
+}

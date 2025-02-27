@@ -1,0 +1,35 @@
+.card {
+    height: 340px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image {
+    max-width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 25px;
+    flex:0 0 200px;
+    align-self: center;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.price {
+    color: #2E2C2F;
+    font-weight: 700;
+}
+
+.priceContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}

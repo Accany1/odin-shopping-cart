@@ -8,4 +8,4 @@ Todo:
 [x] Navigation between homepage and checkout
 [x] Front page done
 [] Add item cards
-[] Add working API
+[] Add working cart function
