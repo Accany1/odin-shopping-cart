@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react'
-import styles from '../styles/header.module.css'
+import styles from '../styles/Header.module.css'
 import { Link } from 'react-router-dom'
 
 

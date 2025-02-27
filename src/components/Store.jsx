@@ -1,4 +1,3 @@
-import { use, useEffect, useState } from 'react'
 import Card from './Card.jsx'
 import style from '../styles/Store.module.css'
 import { useOutletContext } from 'react-router-dom'
