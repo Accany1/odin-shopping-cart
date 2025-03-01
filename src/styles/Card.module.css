@@ -9,6 +9,13 @@
     padding: 20px;
 }
 
+.link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+
 .image {
     max-width: 200px;
     height: 200px;

@@ -6,6 +6,7 @@ import App from './App.jsx'
 import Cart from './components/Cart.jsx'
 import FrontPage from './components/FrontPage.jsx'
 import Store from './components/Store.jsx'
+import Product from './components/Product.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: '/store',
         element: <Store />
+      },
+      {
+        path: '/product',
+        element: <Product />
       }
     ],
   },

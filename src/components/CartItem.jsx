@@ -17,7 +17,7 @@ const CartItem = ({name, image, price, quantity, id}) => {
     }
 
     const handleReduceQuantity = (id) => {
-        if (selected.filter(p => p.id === id)[0].quantity === 0) {
+        if (selected.filter(p => p.id === id)[0].quantity === 1) {
             setSelected(selected.filter(p => p.id !== id))
             return
         }
@@ -44,7 +44,6 @@ const CartItem = ({name, image, price, quantity, id}) => {
                     <div>{quantity}</div>
                     <button className={styles.button} onClick={() => handleReduceQuantity(id)}>-</button>
                 </div>
-                
             </div>
             <div className={styles.groupContainer}>
                 <div className={styles.subHeading}>Price</div>

@@ -22,7 +22,7 @@ const Cart = () => {
             <div className={styles.cart}>
                 {selected.length !== 0 && <h1 className={styles.cartTitle}>Your Cart</h1>}
                 {selected.length !== 0 && selected.map((p) => {return <CartItem key={p.id} name={p.name} image={p.image} price={p.price} quantity={p.quantity} id={p.id}/>})}
-                {selected.length !== 0 && <div className={styles.total}>Total: {selected.reduce((acc, p) => acc + p.quantity * p.price, 0)}</div>}
+                {selected.length !== 0 && <div className={styles.total}>Total: US${selected.reduce((acc, p) => acc + p.quantity * p.price, 0)}</div>}
                 <div className={styles.buttonContainer}>
                     {selected.length !== 0 && <Button label={'Checkout'} type={'button'} onClick={() => {console.log('checkout')}}/>}
                 </div>

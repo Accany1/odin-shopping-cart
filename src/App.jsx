@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 function App() {
   const [items, setItems] = useState([])
   const [selected, setSelected] = useState([])
+  const [product, setProduct] = useState(null)
 
   useEffect(() => {
     fetch('https://fakestoreapi.com/products')
@@ -21,7 +22,7 @@ function App() {
   return (
     <>
         <Header selected={selected}/>
-        <Outlet context={{itemList:[items, setItems], selectedList:[selected, setSelected]}}/>
+        <Outlet context={{itemList:[items, setItems], selectedList:[selected, setSelected],productSelect:[product, setProduct]}}/>
     </>
   )
 }
